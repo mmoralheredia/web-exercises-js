@@ -4,19 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles.css">
+    <script src="./src/scripts.js" defer></script>
     <title>Web Exercises</title>
 </head>
 
 <body>
-    <h1>Web Exercises</h1>
-    <h2>Indice de proyectos</h2>
+    <header>
+        <h1>Web Exercises</h1>
+        <h3>Indice de proyectos</h3>
+    </header>
 
-    <ul>
-        <li><a href="./JavascriptProjects/001-RandomColors/index.html">001-Random Colors</a></li>
-        <li><a href="./JavascriptProjects/002-Counter/index.html">002-Counter</a></li>
-    </ul>
-    <footer>Desarrollado por <a href="https://github.com/mmoralheredia" target="_blank"
-            rel="noopener noreferrer">mmoralheredia</a>
+    <main class="container">
+        <!--todo:
+         <label for="search">Buscar proyecto:
+            <input id="search" type="search" placeholder="counter">
+            <input type="button" value="Buscar">
+        </label>
+        -->
+        <ul>
+            <li>
+                <a href="./JavascriptProjects/001-RandomColors/index.html">Random Colors</a>
+                <p>Este proyecto genera colores aleatorios cada vez que se hace clic en un botón. Es una excelente
+                    manera de practicar el uso de eventos en JavaScript y la manipulación del DOM.</p>
+            </li>
+            <li>
+                <a href="./JavascriptProjects/002-Counter/index.html">Counter</a>
+                <p>Este proyecto es un contador interactivo que permite incrementar, disminuir y restablecer el valor
+                    del contador. Es ideal para practicar la gestión de eventos en JavaScript y la manipulación del DOM.
+                </p>
+            </li>
+            <li>
+                <a href="./JavascriptProjects/003-OurReview/index.html">OurReview</a>
+                <p>Este proyecto es una presentación de reseñas que permite navegar a través de diferentes opiniones de
+                    usuarios. Es una excelente manera de practicar el uso de eventos en JavaScript, la manipulación del
+                    DOM y la gestión de datos dinámicos.</p>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <small>Desarrollado por <a href="https://github.com/mmoralheredia" target="_blank"
+                rel="noopener noreferrer">mmoralheredia</a>
+        </small>
     </footer>
 </body>
 
